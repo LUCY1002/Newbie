@@ -1,0 +1,74 @@
+body{
+    font-family: "Outfit", sans-serif;
+    
+    height: 100vh;  
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-image: url(favicon-32x32.png);
+    background-repeat: repeat;
+}
+.container{
+    background-color: hsl(216, 63%, 91%);
+    height: 430px;
+    width: 830px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.content{
+
+    width: 270px;
+   height: 399px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+   
+}
+
+
+
+.image{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 9px;
+    margin-top: 20px;
+}
+
+
+.paragraph-container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.paragraph1{
+font-weight: 700;
+padding-left: 12px;
+color: hsl(218, 44%, 22%);
+}
+.paragraph2{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    }
+
+
+
+.paragraph3{
+font-weight: 400;
+color: hsl(217, 27%, 58%);
+font-size: 12px;
+}
+
+
+.container-for-first-paragraph{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
